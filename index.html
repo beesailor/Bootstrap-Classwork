@@ -67,10 +67,6 @@
                         </div>
                     </div>
                 </div>
-                <h3>Our Campsites</h3>
-                    <div class="d-none d-sm-block"
-                        <p>Explore our growing database of curated campsites and leave your own reviews!</p>
-                    </div>
             </div>
         </div>
 
@@ -79,11 +75,17 @@
                 <h2>Featured Campsites</h2>
             </div>
             <div class="col">
+              <div class="media">
+                <div class="media-body align-self-center">
+
                 <h3>React Lake Campground</h3>
                     <div class="d-none d-sm-block"
-                        <p>Nestled in the foothills of the Chrome Mountains, this campground on the shores of the pristine React Lake is a favorite for fly fishers.</p>
-                    </div>
-            </div>
+                      <p>Nestled in the foothills of the Chrome Mountains, this campground on the shores of the pristine React Lake is a favorite for fly fishers.</p>
+              </div>
+        
+              </div> 
+                <img class="d-flex ml-3 img-thumbnail" src="img/react-lake-thumb.jpg" alt="Breadcrumb Trail" />   
+            </div>  
         </div>
 
         <div class="row row-content align-items-center">
@@ -100,13 +102,53 @@
                         </div>
                     </div>
                 </div>
-                <h3>Bootstrap Outfitters</h3>
-                    <div class="d-none d-sm-block"
-                        <p>Bootstrap Outfitters supplies you with the gear you need at prices you can't beat.</p>
-                    </div>
             </div>
         </div>
-    </div>
+
+        <div class="row row-content">
+          <div class="col-sm-6 mx-auto">
+            <div class="card"> 
+              <div class="card text-white bg-info">
+              <div class="card-header">
+                <h3>Reserve a Campsite</h3>
+
+                  <div class="card-body">
+                    <form>
+                      <div class="row form-group">
+                        <label for="numberOfCampers">Number off Campers</label>
+                          <div class="col-sm-6">
+                            <select name="numCampers" id="numCampers"> 
+                                <option value="Select">Select...</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                            </select>
+                          </div>
+                      <div class="row col-sm-6">
+                      
+                      </div> class="form-group"
+                        <label for="date" col-form-label >Date</label>
+                          <div class="col-sm-6">
+                          <input type="date" name="date" id="date" placeholder="date">
+                          </div>
+                      
+                        </div>
+                      <div class="row">
+                        <div class="col">
+                        <button type="submit" class="btn btn-primary mt-3">Submit</button>
+                        </div>
+                      </div>
+                    </form>
+
+                  </div>
+              </div>
+              </div>  
+            </div>
+          </div>
+      </div>
 
     <footer class="site-footer">
         <div class="container">
